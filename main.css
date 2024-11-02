@@ -1,0 +1,105 @@
+    @import url(https://fonts.googleapis.com/css?family=Revalia:regular);
+    body {
+        font-family: Revalia;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        background-color: #320606;
+    }
+    
+    .header {
+        text-align: center;
+        padding: 150px;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        background-image: url(../assets/images/leo\ fon.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .header h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+    
+    .header p {
+        font-size: 1.2em;
+    }
+    
+    nav {
+        margin-top: 20px;
+    }
+    
+    nav a {
+        margin: 0 15px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav a:hover {
+        text-decoration: underline;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .about,
+    .portfolio,
+    .contact {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .about img,
+    .portfolio .item img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    
+    .portfolio-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .portfolio .item {
+        width: 200px
+    }
+    
+    .portfolio .item img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .portfolio .item p {
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+    .contact ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .contact ul li {
+        margin: 5px 0;
+    }
+    
+    .contact ul li a {
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .contact ul li a:hover {
+        text-decoration: underline;
+    }
